@@ -15,7 +15,7 @@ services:
   recharge:
     image: rahamshaik/9amrecharge:latest
     ports:
-      - "83:80"
+      - "85:80"
     deploy:
       replicas: 3
   dth:

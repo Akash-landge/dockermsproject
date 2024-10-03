@@ -21,6 +21,6 @@ services:
   dth:
     image: rahamshaik/9amdth:latest
     ports:
-      - "84:80"
+      - "86:80"
     deploy:
       replicas: 3
